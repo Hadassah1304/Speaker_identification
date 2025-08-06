@@ -2,3 +2,5 @@ venv
 main2.py
 __pycache__
 pretrained_model
+enrollments/
+speaker_db.pkl
