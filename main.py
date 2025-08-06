@@ -67,3 +67,4 @@ elif choice == "Identify Speaker":
         st.success(f"🎯 Identified: {result} (Score: {score:.2f})")
 
 
+
