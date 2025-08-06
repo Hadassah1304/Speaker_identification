@@ -5,7 +5,7 @@ from enroll import extract_embedding, load_database
 def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
-def recognize_speaker(file_path, threshold=0.70):
+def recognize_speaker(file_path, threshold=0.65):
     test_embedding = extract_embedding(file_path)
     database = load_database()
 
